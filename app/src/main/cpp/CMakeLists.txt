@@ -18,9 +18,9 @@ add_library(
 add_library(
         kr2
         SHARED
-        ../../../../../Share/Test.cpp
+        ../../../../../CCplusShare/Test.cpp
 )
-include_directories(../../../../../Share/)
+include_directories(../../../../../CCplusShare/)
 
 find_library(log-lib log)
 

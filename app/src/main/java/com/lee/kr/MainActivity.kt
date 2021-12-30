@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         // Used to load the 'kr' library on application startup.
         init {
             System.loadLibrary("kr")
+            System.loadLibrary("kr2")
         }
     }
 }
